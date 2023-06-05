@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Pensamento } from '../pensamento';
 
 @Component({
   selector: 'app-pensamento',
@@ -6,8 +7,9 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./pensamento.component.css'],
 })
 export class PensamentoComponent implements OnInit {
-  @Input() pensamento = {
+  @Input() pensamento: Pensamento = {
     //Este decorator está dizendo que esta propriedade 'pensamento' irá receber inputs do componente pai
+    id: 0,
     conteudo: 'I love Angular',
     autoria: 'Alura',
     modelo: 'modelo3',
