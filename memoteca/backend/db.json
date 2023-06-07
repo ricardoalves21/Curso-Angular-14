@@ -17,6 +17,12 @@
       "conteudo": "Angular é o melhor",
       "autoria": "Anônimo",
       "modelo": "modelo3"
+    },
+    {
+      "conteudo": "Testando função de editar",
+      "autoria": "Ricardo Alves",
+      "modelo": "modelo3",
+      "id": 4
     }
   ]
 }
